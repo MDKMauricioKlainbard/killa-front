@@ -1,0 +1,25 @@
+.search {
+    display: flex;
+    width: 24rem;
+    border: 1px solid #757575;
+    padding: 0.5rem;
+    padding-left: 0.5rem;
+    gap: 1rem;
+    font-size: 20px;
+    button {
+        color: #757575
+    }
+    input::placeholder {
+        color: #757575;
+        font-weight: 300;
+    }
+    input {
+        border: none;
+        width: 100%;
+        color: #080404;
+        font-weight: 500;
+    }
+    input:focus {
+        outline: none;
+    }
+}
